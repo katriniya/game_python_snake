@@ -111,7 +111,7 @@ if __name__ == '__main__':
                     snake.change_direction('DOWN')
                     break
 
-                elif event.key == pygame.K_r:
+                elif event.key == pygame.K_r and game_over:
                     game_over = False
                     snake.reset()
                     food.Update()
