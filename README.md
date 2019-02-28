@@ -1,6 +1,13 @@
 # game_snake
 
-python3, pygame
+python3.5, pygame
+
+Run game:
+python3 main.py
+
+install pygame:
+https://www.pygame.org/wiki/GettingStarted
+
 
 ### Control:
 - Key Up - move snake up
